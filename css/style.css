@@ -1,0 +1,360 @@
+header{
+	height: 70px;
+	margin-bottom: 21px;
+}
+
+.navbar{
+	background: white;
+}
+
+.fold, .fold:hover, .fold:focus{
+	text-decoration: none;
+	color: rgb(80, 106, 133);
+}
+
+.fold:hover{
+	color: rgb(150, 150, 180);
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-indicators{
+	bottom: -15px;
+}
+
+.carousel:hover .carousel-control {
+	opacity: 1;
+}
+
+.carousel:hover .carousel-indicators {
+	opacity: 1;
+}
+
+.rightt{
+	right: 20px;
+    left: auto;
+	border-radius: 10%;
+}
+
+.leftt{
+	right: auto;
+    left: 20px;
+	border-radius: 10%;
+}
+
+.item{
+	background: rgb(80, 106, 133);
+}
+
+.item img{
+	width: 100%;
+}
+
+.zero{
+	position: relative;
+	top: -170px;
+	width: 680px;
+	margin: auto;
+}
+
+.first{
+	position: relative;
+	top: -140px;
+	width: 570px;
+	float: right;
+}
+
+.first .small{
+	color: white;
+}
+
+.second{
+	position: relative;
+	top: -110px;
+	width: 520px;
+	float: left;
+}
+
+.second .small, .third .small{
+	color: rgb(80, 106, 133);
+}
+
+.third{
+	position: relative;
+	top: -190px;
+	width: 570px;
+	float: right;
+}
+
+.third .small{
+	color: white;
+}
+
+.fourth{
+	position: relative;
+	top: -240px;
+	width: 500px;
+	margin: auto;
+}
+
+.big{
+	font-family: Lato Black;
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: none;
+	color: white;
+}
+ 
+.small{
+	font-family: Source Sans Pro Regular;
+	font-size: 17px;
+	text-shadow: none;
+	color: rgb(163, 177, 191);
+	margin-top: 10px;
+}
+
+.btn-foot:hover {
+	background: rgb(23, 167, 139);
+	color: white;
+}
+
+.poster-btn{
+    padding: 10px 50px; /* Add some padding */
+}
+
+.btn-left{
+	float: left;
+}
+
+.btn-right{
+	float: right;
+}
+
+.who-we-are {
+	margin: 100px;	
+}
+
+.get-in-touch{
+	margin-bottom: 40px;
+	margin-top: 100px;
+}
+
+.h1, h2, h4{	
+	font-family: Lato Bold;
+	color: rgb(80, 106, 133);
+}
+
+.small-we{
+	width: 595px;
+	font-family: Source Sans Pro Regular;
+	font-size: 17px;
+	color: rgb(115, 135, 156);
+	margin: auto;
+}
+
+.mar{
+	margin-bottom: 30px;
+}
+
+.green{
+	font-size: 5em;
+	color: rgb(0, 188, 156);
+}
+
+.xsmall-we{
+	font-family: Source Sans Pro Regular;	
+	font-size: 15px;
+	color: rgb(115, 135, 156);
+}
+
+.latest-works{
+	padding: 100px 0;
+	background: rgb(242, 245, 247);
+}
+
+.img-caption{
+	position: absolute;
+	top: 15%;
+	left: 41.5%;
+	width: 20px;
+	height: 20px;
+	font-size: 40px;
+	color: white;
+	opacity: 0;
+}
+
+.image{
+	background: rgb(0, 188, 156);
+	cursor: pointer;
+	width: 102.8%;
+}
+
+.image:hover .img-caption{
+	top: 32%;
+	left: 32%;
+	opacity: 1;
+	width: auto;
+	font-size: 20px;
+	font-family: Source Sans Pro Regular;
+}
+
+.image:hover .img-hov{
+	opacity: 0;
+}
+
+.figure:hover .img-caption{
+	top: 34.5%;
+	left: 50%;
+	opacity: 1;
+	width: auto;
+	font-size: 30px;
+	font-family: Source Sans Pro Regular;
+}
+
+.figcaption{
+	border: 1px solid rgb(230, 233, 237);
+	border-top: none;
+	padding: 10px;
+	background: white;
+	width: 570px;
+}
+
+.figure:hover{
+	cursor: pointer;
+}
+
+.figure:hover .figcaption h4{
+	color: rgb(0, 188, 156);
+}
+
+.figure:hover  .image .img-hov{
+	opacity: 0.1;
+}
+
+.car-arrow{
+	display: inline-block;
+	width: 20px;
+	color: white;
+	background: rgb(201, 210, 218);
+	border-radius: 10%;
+}
+
+.car-arrow:hover{	
+	color: rgb(0, 188, 156);
+	background: rgb(80, 106, 133);
+	cursor: pointer;
+}
+
+.car-nav{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: rgb(80, 106, 133);
+	cursor: pointer;
+}
+
+.car-nav:active{
+	background: rgb(0, 188, 156);
+}
+
+.active{
+	background: rgb(0, 188, 156);	
+}
+
+.img-hover:hover{
+	opacity: 0.5;
+}
+
+footer{
+	color: rgb(163, 177, 191);	
+	font-family: Source Sans Pro Regular;
+	font-size: 14px;
+	background: rgb(47, 64, 82);
+	margin-top: 100px;
+}
+
+h5{
+	color: white;
+	font-family: Source Sans Pro Bold;
+	margin: 40px 0 20px 0;
+}
+
+p{
+	margin: 20px 0;
+}
+
+.more:hover{
+	text-decoration: none;
+	color: rgb(0, 188, 156);
+}
+
+.more{
+	color: inherit;
+}
+
+.foot-img{
+	position: relative;
+	background: rgb(0, 188, 156);
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 3px;
+	height: 85px;
+}
+
+.img-hov:hover{
+	opacity:0.1;
+}
+
+.foot-img:hover .img-hov{
+	opacity: 0.1;
+}
+
+.foot-img:hover .img-caption{
+	opacity: 1;
+}
+
+.form-control{
+	border: 1px solid rgb(200, 200, 200);
+	height: 45px;
+	background: white;
+	color: black;
+	
+}
+
+.btn-foot{
+	position: relative;
+	top: -42.5px;
+	float: right;
+	padding: 5px;
+	margin: 5px;
+	background: rgb(0, 188, 156);
+}
+
+.footer-ending{
+	background: rgb(40, 54, 69);
+	color: rgb(112, 126, 140);
+	padding: 20px;
+}
+
+.modal-body{
+	margin: 20px 0;
+}
+
+.btn:focus, .btn:active, .btn:focus:active{
+	border: none;
+	color: white;
+	background: rgb(23, 167, 139);
+}
+
+textarea{
+	resize: none;
+}
+
+
+
+
+
